@@ -17,8 +17,8 @@ public class N1CheckNoisPalindromeOrNot {
     public static void main(String [] args){
         int x =123;
         int dummy = x;
-        int y = reverse(x);
-        if( dummy == y){
+        int c = reverse(x);
+        if( dummy == c){
             System.out.print("Palindrome Number");
         }
         else{
