@@ -1,4 +1,4 @@
-public class N23CheckNoisAutomatricOrNot {
+public class N23CheckNoisAutomorphicOrNot {
 
     public static boolean isAutomorphic(int N) {
         int sq = N * N;
