@@ -13,3 +13,4 @@ public class N25FindLCMUsingEuclideansTheorem {
         System.out.print("The LCM of the two given numbers is "+lcm);
       }
 }
+
