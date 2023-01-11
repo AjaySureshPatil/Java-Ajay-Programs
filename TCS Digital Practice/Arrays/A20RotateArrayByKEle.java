@@ -30,19 +30,19 @@ public class A20RotateArrayByKEle {
   }
 }
 
-Solution :
+// Solution :
 
-Approach 1: Using a temp array 
+// Approach 1: Using a temp array 
 
-For Rotating the Elements to right
-Step 1: Copy the last k elements into the temp array.
+// For Rotating the Elements to right
+// Step 1: Copy the last k elements into the temp array.
 
-Step 2: Shift n-k elements from the beginning by k position to the right
+// Step 2: Shift n-k elements from the beginning by k position to the right
 
-Step 3: Copy the elements into the main array from the temp array.
+// Step 3: Copy the elements into the main array from the temp array.
 
-Output: After Rotating the elements to right: 6 7 1 2 3 4 5
+// Output: After Rotating the elements to right: 6 7 1 2 3 4 5
 
-Time Complexity: O(n)
+// Time Complexity: O(n)
 
-Space Complexity: O(k) since k array element needs to be stored in temp array
+// Space Complexity: O(k) since k array element needs to be stored in temp array
