@@ -1,16 +1,21 @@
+import java.util.*;
 public class example{
-
-    public static void bubblesort(int arr[]){
-        for(int turn=0; turn<arr.length-1; turn++){
-            for(int j=0; j<arr.length-1; j++){
-                
-            }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int count = 0;
+        int no = sc.nextInt();
+        while(no>0){
+        int remainder = no%10;
+        if(remainder%2==0){
+        count++;
         }
-    }
-    public static void main(String [] args){
-
-        int arr[] = {5,4,1,3,2};
-        bubblesort(arr);
-        printarr(arr);
+        no = no/10;
+        }
+        if(count>=3){
+        System.out.println("TRUE");
+        }else{
+        System.out.println("FALSE");
+        }
+        
     }
 }
